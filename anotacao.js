@@ -48,7 +48,7 @@ function criar_alementos(){
     //criar um span dentro de li
     const span = document.createElement("span")
     span.setAttribute("class","title")
-    span.innerText = "M4isv"
+    span.innerText = "PedroSv"
 
     //criar um p dentro de li
     const p = document.createElement("p")
