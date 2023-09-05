@@ -8,9 +8,9 @@ function encerramento1(date_1, date_2){
 
 }
 
-document.getElementById("encerramento1").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2023,09,03'), new Date())} DIAS</i> para Etapa 1:
+document.getElementById("encerramento1").innerHTML=`<s>Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2023,09,03'), new Date())} DIAS</i> para Etapa 1:
 
-Análise e especificação do problema`
+Análise e especificação do problema</s>`
 
 
 
