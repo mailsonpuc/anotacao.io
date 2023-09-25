@@ -8,9 +8,9 @@ document.getElementById("encerramento1").innerHTML=`<s>Faltam <i class="#e040fb 
 Análise e especificação do problema</s>`
 
 //end 2
-document.getElementById("encerramento2").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2023,09,24'), new Date())} DIAS</i> para Etapa 2:
+document.getElementById("encerramento2").innerHTML=`<s>Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2023,09,24'), new Date())} DIAS</i> para Etapa 2:
 
-Projeto dos requisitos e de artefatos do sistema`
+Projeto dos requisitos e de artefatos do sistema</s>`
 
 //end 3
 document.getElementById("encerramento3").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2023,10,29'), new Date())} DIAS</i> para Etapa 3:
