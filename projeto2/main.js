@@ -3,7 +3,7 @@ import { encerramento1, encerramento2 ,encerramento3, encerramento4, encerrament
 
 
 //end 1
-document.getElementById("encerramento1").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2024,03,24'), new Date())} DIAS</i> para Etapa 1:
+document.getElementById("encerramento1").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('04,03,2024'), new Date())} DIAS</i> para Etapa 1:
 
 Análise e especificação do problema`
 
