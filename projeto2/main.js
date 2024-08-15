@@ -1,4 +1,4 @@
-import { encerramento1, encerramento2 ,encerramento3, encerramento4, encerramento5 } from "./encerramento.js";
+import { encerramento1, encerramento2 ,encerramento3, encerramento4, encerramento5, encerramento6 } from "./encerramento.js";
 
 
 
@@ -16,3 +16,6 @@ document.getElementById("encerramento4").innerHTML=`Faltam <i class="#e040fb pur
 
 //end 5
 document.getElementById("encerramento5").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2024,11,25'), new Date())} DIAS</i> Tarefa 5 (Etapa 5)`
+
+//end 6
+document.getElementById("encerramento6").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2024,11,17'), new Date())} DIAS</i> XP Inc. - Full Stack Developer dio.me`
