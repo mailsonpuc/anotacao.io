@@ -6,7 +6,7 @@ import { encerramento1, encerramento2 ,encerramento3, encerramento4, encerrament
 document.getElementById("encerramento1").innerHTML=`<del>Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2024,08,26'), new Date())} DIAS</i> Tarefa 1 (Etapa 1)</del>`
 
 //end 2
-document.getElementById("encerramento2").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2024,09,23'), new Date())} DIAS</i> Tarefa 2 (Etapa 2)`
+document.getElementById("encerramento2").innerHTML=`<del>Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2024,09,23'), new Date())} DIAS</i> Tarefa 2 (Etapa 2)</del>`
 
 //end 3
 document.getElementById("encerramento3").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2024,10,21'), new Date())} DIAS</i> Tarefa 3 (Etapa 3)`
