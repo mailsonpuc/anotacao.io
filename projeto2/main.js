@@ -15,7 +15,7 @@ document.getElementById("encerramento3").innerHTML=`Faltam <i class="#e040fb pur
 document.getElementById("encerramento4").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2025,06,25'), new Date())} DIAS</i> Tarefa 4 (Etapa 4)`
 
 //end 5
-document.getElementById("encerramento5").innerHTML=`Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2025,05,02'), new Date())} DIAS</i> 1ª Avaliação`
+document.getElementById("encerramento5").innerHTML=`<del>Faltam <i class="#e040fb purple accent-2">${encerramento1(new Date('2025,05,02'), new Date())} DIAS</i> 1ª Avaliação</del>`
 
 //end 6
 
